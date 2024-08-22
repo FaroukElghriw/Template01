@@ -50,4 +50,33 @@ body, h1, h2, h3, h4, h5, h6 {
   .w3-gray {
     background-color: #757575 !important;
   }
-  
+  @media screen and (max-width: 768px) {
+    .nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        height: 250px;
+        padding: 20px;
+    }
+
+    .content {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    .header h1 {
+        font-size: 1.5em;
+    }
+}
